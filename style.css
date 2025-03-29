@@ -11,6 +11,7 @@ body {
 .header-resume {
     display: flex ;
     background-color: blue ;
+    border: 10px solid green ;
     
 }
 
@@ -40,9 +41,10 @@ body {
 .resume-information {
     display: flex ;
     font-size: 125% ;
-    position: relative ;
+    /* position: relative ;
     left : 15px ;
-    top: -20px ;
+    top: -20px ; */
+    border: 10px solid burlywood ;
 }
 
 .resume-information h3 {
@@ -58,13 +60,13 @@ body {
 
 .left-col {
     flex: 1;
-    padding: 20px;
+    padding-left: 10px ;
     text-align : left ;
 }
 
 .right-col {
     flex: 2 ;
-    padding: 20px ;
+    padding-right: 65px;
     position:  relative ;
     left: 50px ;
 }
