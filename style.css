@@ -25,10 +25,17 @@ body {
 }
 
 .resume-information {
+    display: flex ;
     font-size: 125% ;
     position: relative ;
     left : 15px ;
     top: -20px ;
+}
+
+.resume-information h3 {
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 2px solid black;
 }
 
 .resume-information ul {
@@ -37,11 +44,15 @@ body {
 }
 
 .left-col {
+    flex: 1;
+    padding: 20px;
     text-align : left ;
 }
 
-.left-col h3 {
-    display: inline-block;
-    border-bottom: 2px solid black;
-    font-weight: bold;
-  }
+.right-col {
+    flex: 2 ;
+    padding: 20px;
+    position:  relative ;
+    left: 50px ;
+
+}
